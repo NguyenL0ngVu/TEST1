@@ -16,5 +16,10 @@ namespace Test1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show ("Error", "You cann't connected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
     }
 }
